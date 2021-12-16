@@ -781,6 +781,48 @@ for (let i = 0; i < amount; i++) {
 
 /* 8 lesson end */
 
+/* 6 MONTH START */
+/* 1 LESSON START  */
+
+// function func(num1, num2) {
+//     return num1 + num2 
+// }
+
+// console.log(func(1, 2));
+
+// const func = (num1, num2) => num1 + num2 
+
+// console.log(func(2, 4));
+
+// const obj = {
+//     method: function () {
+//         return this 
+//     },
+//     name: 'asdf'
+// }
+
+// console.log(obj.method());
+
+// const obj = {
+//     method: function () {
+//         const sum = () => {
+//             this
+//         }
+//     },
+//     name: 'asdf'
+// }
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+// arr.forEach((item, i) => {
+//     console.log(item);
+// })
+
+// let res = arr.sort(function (a,b) {
+//     return a - b
+// })
+
+// console.log(res);
+
 /* Способ получить элементе по id */
 // const box = document.getElementById('box')
 // console.log(box);
@@ -812,19 +854,21 @@ circle.forEach(item => {
         // }else{
         //     item.style.background = 'blue'
         // }
-        
+
         // item.classList.add('yellow')
-        
+
         // contains() - проверяет есть ли такой класс
-        
+
         // if (item.classList.contains('yellow')) {
         //     item.classList.remove('yellow')
         // }else{
         //     item.classList.add('yellow')
         // }
-        
+
         item.classList.toggle('yellow')
-        
+
         item.style.marginLeft = 'left'
     })
-})
+
+/* 1 LESSON END */
+/* 6 MONTH END*/
