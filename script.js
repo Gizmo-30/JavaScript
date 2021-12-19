@@ -871,4 +871,48 @@ circle.forEach(item => {
     })
 
 /* 1 LESSON END */
+/* 2 lesson start*/
+
+// let time = new Date();
+
+// console.log(time);
+// console.log(time.getDate());
+// console.log(time.getDay());
+// console.log(time.getFullYear());
+// console.log(time.getHours());
+// console.log(time.getMilliseconds());
+// console.log(time.getMonth());
+
+
+
+function clock() {
+
+    let time = new Date(),
+      second = time.getSeconds() * 6,
+      minutes = time.getMinutes() * 6,
+    hours = time.getHours() * 30;
+
+    sec.style = `transform: rotate(${second}deg)`;
+    min.style = `transform: rotate(${minutes}deg)`;
+    hour.style = `transform: rotate(${hours}deg)`;
+
+    setTimeout(() => clock(), 1000);
+    // Рекурсия  это когда функция вызывает саму себя внутри себя
+}
+
+clock();
+
+
+// setTimeout(() => {
+//     console.log('asdasd');
+// }, 5000)
+
+
+// setInterval(() => {
+//     console.log('asdsa');
+// }, 1000)    
+    
+/* 2 lesson end */    
+    
 /* 6 MONTH END*/
+    
