@@ -913,6 +913,177 @@ clock();
 // }, 1000)    
     
 /* 2 lesson end */    
+
+/* 3 lesson start */
+    
+    // const hour = document.querySelector('.h'),
+//     min = document.querySelector('.m'),
+//     sec = document.querySelector('.s'),
+//     hoursNumber = document.querySelector('.hours')
+//     minutesNumber = document.querySelector('.minutes');
+
+    
+// let time = new Date();
+// console.log(time.getDate());
+// console.log(time.getDay());
+// console.log(time.getFullYear());
+// console.log(time.getMilliseconds());
+// console.log(time.getMinutes());
+// console.log(time.getSeconds());
+
+// function clock() {
+//     let time = new Date(),
+//         second = time.getSeconds() * 6,
+//         minutes = time.getMinutes() * 6,
+//         hours = time.getHours() * 30;
+//     sec.style = `transform: rotate(${second}deg)`;
+//     min.style = `transform: rotate(${minutes}deg)`;
+//     hour.style = `transform:rotate(${hours}deg)`;
+    
+//     hoursNumber.innerHTML = time.getHours() < 10 ? '0' + time.getHours() : time.getHours();
+//     minutesNumber.innerHTML = time.getMinutes() < 10 ? '0' + time.getMinutes() : time.getMinutes();
+    
+    
+//     setTimeout(() => clock(), 1000)
+//     // Рекурсия это когда функция вызывает саму себя внутри себя
+// }
+// clock()
+
+// setTimeout(() => {
+//     console.log('asdf');
+// }, 5000);
+
+// setInterval(() => {
+//     console.log('asdfsfad');
+// }, 1000);
+
+// const tabsItem = document.querySelectorAll('.tabsItem'),
+//     tabsContentItem = document.querySelectorAll('.tabsContentItem ');
+
+// tabsItem.forEach((item, i) => {
+//     item.addEventListener('click', function (e) {
+//         e.preventDefault()/* отменяте обычное поведение элементов в браузере */
+//         removeActive()
+//         this.classList.add('active')
+//         tabsContentItem[i].classList.add('active')
+//     })
+// });
+
+// function removeActive() {
+//     tabsItem.forEach((item,i) => {
+//         item.classList.remove('active');
+//         tabsContentItem[i].classList.remove('active')
+//     });
+// }
+
+// const btn = document.querySelector('.stopwatch__btn'),
+//     watchSwcond = document.querySelector('.stopwatch__seconds')
+
+// btn.addEventListener('click', () => {
+//     if(btn.innerHTML == 'start'){
+//         btn.innerHTML = 'stop'
+//         timer()
+//     }
+// })
+
+// function timer() {
+//     watchSecond,innerHTML++
+//     setTimeout(() => {
+//         timer()
+//     }, 1000);
+// }
+    
+/* board lesson start */
+
+    // const board = document.querySelector('.board')
+
+// let number = 500
+
+// for (let i = 0; i < number; i++) {
+    
+//     let div = document.createElement('div')
+    
+//     div.classList.add('box')
+    
+//     div.addEventListener('mouseover', () => {/* событие  наведения мыши*/
+//         div.style.background = 'seagreen'
+//         div.style.boxShadow = '0 0 2px seagreen'
+//     })
+    
+//     div.addEventListener('mouseleave', () => { /* событие когда машь уводим */
+//         div.style.background = 'rgba(20, 20, 20)'
+//         div.style.boxShadow = '0 0 2px #000'
+//     })
+    
+//     board.appendChild(div)
+// }
+    
+/* board lesson end */
+    
+/* 3 lesson end */
+    
+    
+/* 4 lesson start */
+    
+// const container = document.querySelector('.container'),
+//     sideBar = document.querySelector('.sidebar'),
+//     mainSlide = document.querySelector('.main-slide'),
+//     upBtn = document.querySelector('.up-button'),
+//     downBtn = document.querySelector('.down-button'),
+//     slides = [...mainSlide.children];
+
+// console.log((slides.length - 1) * -100);
+
+// console.log(typeof mainSlide);
+
+// console.log(slides.length);
+
+// console.log(slides);
+
+// let activeSlide = 0;
+
+
+// sideBar.style.top = `-${(slides.length - 1) * 100}vh`;
+
+
+// upBtn.addEventListener('click', () => {
+//     slideChange('up')
+// })
+
+
+// downBtn.addEventListener('click', () => {
+//     slideChange('down')
+// })
+
+
+// function slideChange(str) {
+//     if(str === 'up') {
+//         activeSlide++
+//         if (activeSlide === slides.length) {
+//             activeSlide = 0
+//         }
+//     }else if(str === 'down' ) {
+//         activeSlide-- 
+//         if (activeSlide < 0) {
+//             activeSlide = (slides.length - 1)
+//         } 
+//     }
+    
+//     // clientHeight - вычисляет все видимую высоту элемента
+//     // clientWeight - вычисляет все видимую ширину элемента
+
+//     const parenHeight = container.clientHeight;
+    
+//     sideBar.style.transform = `translateY(${activeSlide * parenHeight}px)`
+//     mainSlide.style.transform = `translateY(-${activeSlide * parenHeight}px)`
+
+// }
+
+
+// console.log(container.clientHeight);
+    
+    
+/* 4 lesson end */    
     
 /* 6 MONTH END*/
     
